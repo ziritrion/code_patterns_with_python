@@ -1,5 +1,6 @@
 """
 Open-Closed Principle
+
 When you add a functionality, you should add it by extension rather than by modification > open for extension, closed for modification.
 """
 
