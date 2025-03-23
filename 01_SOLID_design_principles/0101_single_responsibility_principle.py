@@ -21,6 +21,11 @@ class Journal:
         del self.entries[pos]
 
     def __str__(self):
+        """
+        This is a dunder method that defines how to print the Journal class object as a string.
+        Learn more about dunder methods, __str__ and __repr__ here:
+        https://www.digitalocean.com/community/tutorials/python-str-repr-functions
+        """
         return "\n".join(self.entries)
 
     # The following methods break SRP!
